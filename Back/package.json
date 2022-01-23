@@ -2,6 +2,7 @@
   "name": "tweteroo-back",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/brbsg/tweterooBack/issues"
   },
-  "homepage": "https://github.com/brbsg/tweterooBack#readme"
+  "homepage": "https://github.com/brbsg/tweterooBack#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
 }
